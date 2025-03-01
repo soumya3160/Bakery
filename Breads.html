@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8B4513; /* Brown color for the header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the header */
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .bread-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .bread-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(25% - 20px); /* 4 cards in a row */
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        }
+
+        .bread-card:hover {
+            transform: translateY(-5px); /* Lift the card on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        .bread-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .bread-card h2 {
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+            color: #444;
+        }
+
+        .bread-card a {
+            text-decoration: none;
+            color: #8B4513; /* Brown color for links */
+            font-weight: bold;
+        }
+
+        .bread-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bread-card {
+                width: calc(50% - 20px); /* 2 cards in a row on tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .bread-card {
+                width: 100%; /* 1 card in a row on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bread Recipes</h1>
+    </header>
+    <div class="container">
+        <div class="bread-cards">
+            <!-- Whole Wheat Bread Card -->
+            <div class="bread-card">
+                <img src="IMG_4994.jpg" alt="Whole Wheat Bread">
+                <h2>Whole Wheat Bread</h2>
+                <a href="whole-wheat-bread.html">View Recipe</a>
+            </div>
+
+            <!-- Focaccia Bread Card -->
+            <div class="bread-card">
+                <img src="IMG_0726.jpg" alt="Focaccia Bread">
+                <h2>Focaccia Bread</h2>
+                <a href="focaccia-bread.html">View Recipe</a>
+            </div>
+
+            <!-- Breadsticks Card -->
+            <div class="bread-card">
+                <img src="IMG_8039.jpg" alt="Breadsticks">
+                <h2>Breadsticks</h2>
+                <a href="breadsticks.html">View Recipe</a>
+            </div>
+
+            <!-- Banana Bread Card -->
+            <div class="bread-card">
+                <img src="IMG_2705.jpg" alt="Banana Bread">
+                <h2>Banana Bread</h2>
+                <a href="banana-bread.html">View Recipe</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

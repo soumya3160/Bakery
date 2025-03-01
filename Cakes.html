@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6347; /* Tomato color for the header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .cake-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .cake-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        }
+
+        .cake-card:hover {
+            transform: translateY(-5px); /* Lift the card on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        .cake-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .cake-card h2 {
+            color: #ff6347; /* Tomato color for the title */
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+        }
+
+        .cake-card a {
+            text-decoration: none;
+            color: #ff6347; /* Tomato color for links */
+            font-weight: bold;
+        }
+
+        .cake-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .cake-card {
+                width: calc(50% - 20px); /* 2 cards in a row on tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cake-card {
+                width: 100%; /* 1 card in a row on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cake Recipes</h1>
+    </header>
+
+    <div class="cake-container">
+        <!-- Carrot Cake Card -->
+        <div class="cake-card">
+            <img src="bhg-recipe-layer-cakes-best-loved-carrot-cake-Hero-01-de4fa105721e4b27bf4a21373e147092.jpg" alt="Carrot Cake">
+            <h2>Carrot Cake</h2>
+            <a href="carrot-cake.html">View Recipe</a>
+        </div>
+
+        <!-- Red Velvet Cake Card -->
+        <div class="cake-card">
+            <img src="Heart-Shape-Red-Velvet-Cake.jpg" alt="Red Velvet Cake">
+            <h2>Red Velvet Cake</h2>
+            <a href="red-velvet-cake.html">View Recipe</a>
+        </div>
+
+        <!-- Cheesecake Card -->
+        <div class="cake-card">
+            <img src="Salty-Ginger-Philadelphia-Cheesecake-4-1x1-2.jpg" alt="Cheesecake">
+            <h2>Cheesecake</h2>
+            <a href="cheesecake.html">View Recipe</a>
+        </div>
+
+        <!-- Chocolate Truffle Cake Card -->
+        <div class="cake-card">
+            <img src="Chocolate-TrufFLe-Gateau.jpg" alt="Chocolate Truffle Cake">
+            <h2>Chocolate Truffle Cake</h2>
+            <a href="chocolate-truffle-cake.html">View Recipe</a>
+        </div>
+    </div>
+</body>
+</html>

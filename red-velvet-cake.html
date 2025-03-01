@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f5e7; /* Light beige background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Container for the content */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header Styles */
+        h1 {
+            text-align: center;
+            color: #8B4513; /* Brown color for the header */
+            font-size: 3rem;
+            margin-bottom: 30px;
+            font-family: 'Georgia', serif;
+        }
+
+        /* Cake Section Styles */
+        .cake {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: #fafafa;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cake:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .cake-content {
+            flex: 1;
+        }
+
+        .cake h2 {
+            color: #8B4513; /* Brown color for the title */
+            margin-top: 0;
+            font-size: 2.5rem;
+            font-family: 'Georgia', serif;
+        }
+
+        .cake img {
+            max-width: 350px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Ingredients and Instructions Styles */
+        .ingredients, .instructions {
+            margin-bottom: 30px;
+        }
+
+        .ingredients h3, .instructions h3 {
+            color: #555;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            font-family: 'Georgia', serif;
+        }
+
+        .ingredients ul, .instructions ol {
+            margin: 0;
+            padding-left: 25px;
+        }
+
+        .ingredients ul li, .instructions ol li {
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .ingredients ul li {
+            list-style-type: square;
+            color: #8B4513; /* Brown color for list items */
+        }
+
+        .instructions ol li {
+            list-style-type: decimal;
+            color: #8B4513; /* Brown color for list items */
+        }
+
+        /* Button Styles */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8B4513; /* Brown color for the button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #6b2c0e; /* Darker brown on hover */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .cake {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .cake img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .cake h2 {
+                font-size: 2rem;
+            }
+
+            .ingredients h3, .instructions h3 {
+                font-size: 1.5rem;
+            }
+
+            .ingredients ul li, .instructions ol li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+           <div class="cake">
+            <div class="cake-content">
+            <h2>Red Velvet Cake</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>2 1/2 cups all-purpose flour</li>
+                <li>1 1/2 cups sugar</li>
+                <li>1 tsp baking soda</li>
+                <li>1 tsp cocoa powder</li>
+<li>1 tsp salt</li>
+<li>2 eggs</li>
+<li>1 1/2 cups vegetable oil</li>
+<li>1 cup buttermilk</li>
+<li>2 tbsp red food coloring</li>
+</ul>
+<h3>Instructions:</h3>
+<ol>
+<li>Preheat oven to 350°F (175°C).</li>
+<li>Mix dry ingredients in a bowl.</li>
+<li>Add eggs, oil, buttermilk, and food coloring.</li>
+<li>Pour into pans and bake for 30 minutes.</li>
+</ol></div>
+<img src="Heart-Shape-Red-Velvet-Cake.jpg" alt="Red Velvet Cake" height="250px">
+</div>
+</div>
+</body>
+</html>

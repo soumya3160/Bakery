@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Recipes</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8B4513; /* Brown color for the header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the header */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .cookie-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for each cookie card */
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+        }
+
+        .cookie-card:hover {
+            transform: translateY(-5px); /* Lift the card on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        .cookie-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the image */
+        }
+
+        .cookie-card h2 {
+            color: #8B4513; /* Brown color for the title */
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+        }
+
+        .cookie-card a {
+            text-decoration: none;
+            color: #8B4513; /* Brown color for links */
+            font-weight: bold;
+        }
+
+        .cookie-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .cookie-card {
+                width: calc(50% - 20px); /* 2 cards in a row on tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cookie-card {
+                width: 100%; /* 1 card in a row on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cookie Recipes</h1>
+    </header>
+
+    <div class="container">
+        <!-- Chocolate Chip Cookies Card -->
+        <div class="cookie-card">
+            <img src="small-batch-chocolate-chip-cookies-FEATURE.jpg" alt="Chocolate Chip Cookies" width="300" height="350">
+            <h2>Chocolate Chip Cookies</h2>
+            <a href="chocolate-chip-cookies.html">View Recipe</a>
+        </div>
+
+        <!-- Peanut Butter Cookies Card -->
+        <div class="cookie-card">
+            <img src="ThickandChewyPeanutButterCookies8007141.jpg" alt="Peanut Butter Cookies" width="300" height="350">
+            <h2>Peanut Butter Cookies</h2>
+            <a href="peanut-butter-cookies.html">View Recipe</a>
+        </div>
+
+        <!-- Thumbprint Cookies Card -->
+        <div class="cookie-card">
+            <img src="00f5255c244970a268632a19047dce94.jpg" alt="Thumbprint Cookies" width="300" height="350">
+            <h2>Thumbprint Cookies</h2>
+            <a href="thumbprint-cookies.html">View Recipe</a>
+        </div>
+
+        <!-- Fortune Cookies Card -->
+        <div class="cookie-card">
+            <img src="kue-fortune-cookie-1-1jpg-20240119010606.jpg" alt="Fortune Cookies" width="300" height="350">
+            <h2>Fortune Cookies</h2>
+            <a href="fortune-cookies.html">View Recipe</a>
+        </div>
+    </div>
+</body>
+</html>

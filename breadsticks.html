@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadsticks Recipe</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f5e7; /* Light beige background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Container for the content */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header Styles */
+        h1 {
+            text-align: center;
+            color: #8B4513; /* Brown color for the header */
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Bread Section Styles */
+        .bread {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .bread:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .bread-content {
+            flex: 1;
+        }
+
+        .bread h2 {
+            color: #8B4513; /* Brown color for the title */
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        .bread img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Ingredients and Instructions Styles */
+        .ingredients, .instructions {
+            margin-bottom: 20px;
+        }
+
+        .ingredients h3, .instructions h3 {
+            color: #555;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .ingredients ul, .instructions ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .ingredients ul li, .instructions ol li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .ingredients ul li {
+            list-style-type: square;
+        }
+
+        .instructions ol li {
+            list-style-type: decimal;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bread {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .bread img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .bread h2 {
+                font-size: 1.8rem;
+            }
+
+            .ingredients h3, .instructions h3 {
+                font-size: 1.3rem;
+            }
+
+            .ingredients ul li, .instructions ol li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bread">
+    <div class="bread-content">
+        <h2>Breadsticks</h2>
+        <div class="ingredients">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>2 1/2 cups all-purpose flour</li>
+                <li>1 cup warm water</li>
+                <li>1 tbsp sugar</li>
+                <li>1 tsp salt</li>
+                <li>2 tbsp olive oil</li>
+                <li>1 tbsp garlic powder</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+                <li>Dissolve yeast and sugar in warm water and let it sit for 5 minutes.</li>
+                <li>Mix in olive oil and salt.</li>
+                <li>Add flour and knead until smooth.</li>
+                <li>Let the dough rise for 30 minutes.</li>
+                <li>Roll dough into sticks and sprinkle with garlic powder.</li>
+                <li>Bake at 375°F (190°C) for 15 minutes.</li>
+            </ol>
+        </div>
+    </div>
+    <img src="IMG_8039.jpg" alt="Breadsticks">
+</div>
+    
+</body>
+</html>
