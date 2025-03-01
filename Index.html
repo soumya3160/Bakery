@@ -17,6 +17,9 @@
             background-repeat: no-repeat;
             background-size: cover;
             line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes at least the full viewport height */
         }
 
         .navbar {
@@ -93,12 +96,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
+            gap: 40px;
         }
 
         .image-container img {
             width: 150px; /* Fixed width for images */
-            height: 150px; /* Fixed height for images */
+            height: 170px; /* Fixed height for images */
             object-fit: cover; /* Maintain aspect ratio */
             border-radius: 5px; /* Optional: Rounded corners */
         }
@@ -109,20 +112,18 @@
         }
 
         footer {
-            background-color: #6f4518;
+            background-color: #583101;
             color: white;
             text-align: center;
             padding: 15px;
-            margin-top: 30px;
+            margin-top: auto; /* Push the footer to the bottom */
             box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-            
         }
 
         footer p {
             margin: 0;
             font-size: 16px;
-            background-color: #583101;
-            
+            background-color: #824d0c;
         }
 
         /* Responsive Design */
@@ -174,8 +175,8 @@
             }
 
             .image-container img {
-                width: 80px;
-                height: 80px;
+                width: 100px;
+                height: 100px;
             }
         }
     </style>
@@ -187,7 +188,7 @@
     </div>
 
     <!-- Main Content -->
-    <h1>Welcome to the Bakery!</h1>
+    <h1>Welcome to the Bakery!🍪</h1>
     <nav class="recipe-links">
         <a href="Breads.html">
             <div class="image-container">
