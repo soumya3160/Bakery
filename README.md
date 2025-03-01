@@ -1,2 +1,2 @@
-# Sweet Teeth
+# Sweet Tooth
 A guide for bakery items.
