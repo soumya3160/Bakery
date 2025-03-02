@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumpkin Pie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #8B4513; 
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .recipe:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .recipe-content {
+            flex: 1;
+        }
+
+        .recipe h2 {
+            color: #8B4513; 
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        .recipe img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ingredients, .instructions {
+            margin-bottom: 20px;
+        }
+
+        .ingredients h3, .instructions h3 {
+            color: #555;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .ingredients ul, .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .ingredients ul li, .instructions ol li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .ingredients ul li {
+            list-style-type: square;
+        }
+
+        .instructions ol li {
+            list-style-type: decimal;
+        }
+
+        /* Back Button */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8B4513; /* Brown color for the button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #6b2c0e; /* Darker brown on hover */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .recipe {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .recipe img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .recipe h2 {
+                font-size: 1.8rem;
+            }
+
+            .ingredients h3, .instructions h3 {
+                font-size: 1.3rem;
+            }
+
+            .ingredients ul li, .instructions ol li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pumpkin Pie</h1>
+    </header>
+
+    <div class="container">
+        <div class="recipe">
+            <div class="recipe-content">
+                <h2>Pumpkin Pie</h2>
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>1 can (15 oz) pumpkin puree</li>
+                        <li>1 can (12 oz) evaporated milk</li>
+                        <li>3/4 cup sugar</li>
+                        <li>1 teaspoon cinnamon</li>
+                        <li>1/2 teaspoon ginger</li>
+                        <li>1/2 teaspoon nutmeg</li>
+                        <li>1 unbaked pie crust</li>
+                    </ul>
+                </div>
+                <div class="instructions">
+                    <h3>Instructions</h3>
+                    <ol>
+                        <li>Preheat oven to 425°F (220°C).</li>
+                        <li>In a large bowl, mix pumpkin puree, evaporated milk, sugar, cinnamon, ginger, and nutmeg until smooth.</li>
+                        <li>Pour the mixture into the unbaked pie crust.</li>
+                        <li>Bake for 15 minutes, then reduce the oven temperature to 350°F (175°C) and continue baking for 40-50 minutes, or until a knife inserted near the center comes out clean.</li>
+                        <li>Let the pie cool completely before serving.</li>
+                    </ol>
+                </div>
+            </div>
+            <img src="240_F_236967671_pBzitRHM3lXnT0QP6Lpwzfm42UIgcHXH.jpg" alt="Pumpkin Pie">
+        </div>
+    </div>
+</body>
+</html>

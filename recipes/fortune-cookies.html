@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune cookies</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #8B4513; /* Brown color for the header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .cookie {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cookie:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .cookie-content {
+            flex: 1;
+        }
+
+        .cookie h2 {
+            color: #8B4513; /* Brown color for the title */
+            margin-top: 0;
+            font-size: 2rem;
+        }
+
+        .cookie img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Ingredients and Instructions Styles */
+        .ingredients, .instructions {
+            margin-bottom: 20px;
+        }
+
+        .ingredients h3, .instructions h3 {
+            color: #555;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .ingredients ul, .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .ingredients ul li, .instructions ol li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .ingredients ul li {
+            list-style-type: square;
+        }
+
+        .instructions ol li {
+            list-style-type: decimal;
+        }
+
+        /* Back Button */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8B4513; /* Brown color for the button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #6b2c0e; /* Darker brown on hover */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .cookie {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .cookie img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .cookie h2 {
+                font-size: 1.8rem;
+            }
+
+            .ingredients h3, .instructions h3 {
+                font-size: 1.3rem;
+            }
+
+            .ingredients ul li, .instructions ol li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cookie">
+            <div class="cookie-content">
+   <div class="recipe">
+    <div class="recipe-content">
+        <h2>Fortune Cookies</h2>
+        <ul>
+            <li><strong>Ingredients:</strong></li>
+            <li>2 large egg whites</li>
+            <li>1/2 teaspoon vanilla extract</li>
+            <li>1/2 teaspoon almond extract</li>
+            <li>3 tablespoons vegetable oil</li>
+            <li>6 tablespoons all-purpose flour</li>
+            <li>1 1/2 teaspoons cornstarch</li>
+            <li>1/4 teaspoon salt</li>
+            <li>6 tablespoons white sugar</li>
+            <li>1 1/2 teaspoons water</li>
+        </ul>
+        <ul>
+            <li><strong>Instructions:</strong></li>
+            <li>Preheat oven to 300°F (150°C).</li>
+            <li>Write fortunes on strips of paper about 4 inches long and 1/2 inch wide.</li>
+            <li>Mix the egg whites and vanilla and almond extracts until foamy but not stiff.</li>
+            <li>Sift the flour, cornstarch, salt and sugar and blend into the egg white mixture.</li>
+            <li>Add the water and vegetable oil and stir until smooth.</li>
+            <li>Place teaspoonfuls of the batter onto a greased cookie sheet, spacing them at least 3 inches apart.</li>
+            <li>Bake for 14 to 15 minutes, or until the edges are golden brown.</li>
+            <li>Quickly remove the cookies from the baking sheet and place a fortune in the center of each cookie.</li>
+            <li>Fold the cookie in half, then fold the ends together to form the fortune cookie shape.</li>
+            <li>Place the cookies into the cups of a muffin tin to hold their shape until they cool.</li>
+        </ul>
+    </div>
+    <img src="kue-fortune-cookie-1-1jpg-20240119010606.jpg" alt="Fortune Cookies">
+</div>
+</div>
+</body>
+</html>
