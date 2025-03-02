@@ -1,4 +1,4 @@
-Sweet Tooth
+Sweet Tooth:
 A guide to delicious bakery items.
 
 Bakery Items
